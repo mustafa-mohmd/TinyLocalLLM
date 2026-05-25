@@ -1,0 +1,4 @@
+--only-binary=:all:
+streamlit>=1.36.0
+ollama>=0.4.0
+psutil>=5.9.8
