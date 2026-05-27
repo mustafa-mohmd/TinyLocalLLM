@@ -12,8 +12,14 @@ A lightweight local LLM chat application built with Python, supporting GGUF mode
 - Configurable application settings
 - Lightweight and easy to extend
 
-model : google/gemma-3-4b-it-qat-q4_0-gguf | huggingface
+## Models (huggingface)
 
+Download:
+- gemma-3-4b-it-q4_0.gguf
+- mmproj-model-f16-4B.gguf
+
+Place them inside:
+models/
 ---
 
 ## Project Structure
@@ -29,8 +35,7 @@ LOCALLLM/
 │
 ├── models/
 │   ├── gemma-3-4b-it-q4_0.gguf
-│   ├── mmproj-model-f16-4B.gguf
-│   └── README.md
+│   └── mmproj-model-f16-4B.gguf
 │
 ├── styles/
 │   └── custom.css
