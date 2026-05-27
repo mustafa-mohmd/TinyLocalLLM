@@ -1,0 +1,99 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0f1117;
+  color: #e5e7eb;
+}
+
+.stApp {
+  background: #0f1117;
+}
+
+section[data-testid="stSidebar"] {
+  background: #111827;
+  border-right: 1px solid #1f2937;
+}
+
+.stChatMessage {
+  padding: 0.4rem 0;
+}
+
+.stChatMessage [data-testid="stMarkdownContainer"] {
+  padding: 0.75rem 1rem;
+  border-radius: 14px;
+  line-height: 1.6;
+}
+
+div[data-testid="stChatMessage"][data-role="user"] [data-testid="stMarkdownContainer"],
+.stChatMessage.user [data-testid="stMarkdownContainer"] {
+  background: #1f2937;
+  border: 1px solid #2a3345;
+}
+
+div[data-testid="stChatMessage"][data-role="assistant"] [data-testid="stMarkdownContainer"],
+.stChatMessage.assistant [data-testid="stMarkdownContainer"] {
+  background: #111827;
+  border: 1px solid #1f2937;
+}
+
+pre {
+  background: #0b0f19;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 1rem;
+  overflow: auto;
+}
+
+code {
+  color: #a5b4fc;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.typing-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: #111827;
+  border: 1px solid #1f2937;
+}
+
+.typing-indicator span {
+  width: 6px;
+  height: 6px;
+  background: #9ca3af;
+  border-radius: 50%;
+  animation: blink 1.4s infinite both;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0%, 80%, 100% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,8 @@
+## Models
+
+Download:
+- gemma-3-4b-it-q4_0.gguf
+- mmproj-model-f16-4B.gguf
+
+Place them inside:
+models/
