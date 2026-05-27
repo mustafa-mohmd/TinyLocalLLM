@@ -1,0 +1,10 @@
+{
+  "model_name": "gemma3:4b",
+  "ollama_host": "",
+  "context_length": 2048,
+  "max_tokens": 512,
+  "temperature": 0.25,
+  "top_p": 0.95,
+  "repeat_penalty": 1.1,
+  "system_prompt": ""
+}
