@@ -228,7 +228,7 @@ if retry_requested and st.session_state.get("last_user_message"):
     retry_mode = True
 elif prompt:
     prompt_to_process = prompt
-
+#needs optimization btw
 if prompt_to_process:
     if not retry_mode:
         st.session_state.messages.append({"role": "user", "content": prompt_to_process})
@@ -284,5 +284,5 @@ if prompt_to_process:
         st.session_state.messages.append({"role": "assistant", "content": assistant_text})
         session["messages"] = st.session_state.messages
         save_session(session)
-
+#code to review and opt
     scroll_to_bottom()
