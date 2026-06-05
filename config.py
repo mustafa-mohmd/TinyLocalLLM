@@ -11,7 +11,7 @@ STYLES_DIR = os.path.join(BASE_DIR, "styles")
 DEFAULT_MODEL_NAME = "gemma3:4b"
 
 SETTINGS_FILE = os.path.join(CHAT_DIR, "settings.json")
-#fine tuning
+#fine-tuning
 DEFAULT_CONTEXT_LENGTH = 4096
 DEFAULT_MAX_TOKENS = 512
 DEFAULT_TEMPERATURE = 0.7
