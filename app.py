@@ -54,6 +54,7 @@ DEFAULT_SETTINGS: Dict[str, object] = {
     "system_prompt": "",
 }
 
+#defined funcs
 
 def ensure_settings() -> Dict[str, object]:
     if "settings" not in st.session_state:
