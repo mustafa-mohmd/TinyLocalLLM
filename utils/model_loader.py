@@ -8,7 +8,7 @@ import ollama
 
 import streamlit as st
 
-
+#classcr
 @dataclass(frozen=True)
 class OllamaChatModel:
     client: ollama.Client
