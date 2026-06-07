@@ -8,6 +8,7 @@ from typing import Dict, List, Optional
 
 from config import CHAT_DIR, SETTINGS_FILE
 
+#defs
 
 def ensure_chat_dir() -> None:
     os.makedirs(CHAT_DIR, exist_ok=True)
