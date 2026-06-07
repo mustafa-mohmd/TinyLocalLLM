@@ -4,6 +4,7 @@ from typing import Callable, Dict, Iterable, List
 
 from utils.model_loader import OllamaChatModel
 
+#defs
 
 def approx_token_count(text: str) -> int:
     if not text.strip():
