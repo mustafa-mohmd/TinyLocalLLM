@@ -1,5 +1,5 @@
 import ollama
-
+#justtotest
 print("Checking Ollama...")
 
 client = ollama.Client()
